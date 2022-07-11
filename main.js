@@ -121,6 +121,17 @@ const slideRight = {
 };
 ScrollReveal().reveal(".slideRight", slideRight);
 
+const slideBotCard = {
+  distance: "90px",
+  origin: "bottom",
+  duration: 600,
+  interval: 100,
+  cleanup: true,
+  easing: "ease-out",
+  delay: 500,
+};
+ScrollReveal().reveal(".slideBotCard", slideBotCard);
+
 // footer ani
 const slideTopAtOnce = {
   distance: "50px",
@@ -128,7 +139,7 @@ const slideTopAtOnce = {
   interval: 5,
   duration: 1000,
   cleanup: true,
-  delay: 200,
+  delay: 400,
 };
 ScrollReveal().reveal(".slideTopAll", slideTopAtOnce);
 
@@ -138,7 +149,7 @@ const slideBotAtOnce = {
   interval: 5,
   duration: 1000,
   cleanup: true,
-  delay: 200,
+  delay: 400,
 };
 ScrollReveal().reveal(".slideBotAll", slideBotAtOnce);
 
